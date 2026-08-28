@@ -1,16 +1,16 @@
 {
    "id": "Black Legion",
-   "version": "Epic UK v070414",
+   "version": "Epic UK v280726",
    "by": "Kyussinchains",
    "notes":["1) If Using Rhinos you must take exactly enough to carry all units in the formation after any upgrades have been added, to a maximum of 8. 2) 1 Dreadclaw must be purchased per unit in the formation. 3) both Rhinos and Dreadclaws count towards the upgrade allowance of a formation"], 
    "sections": [
       {"name": "CORE", "formations": [
-            {"id": 501, "name": "Black Legion Retinue", "pts": 275, "units": "8 Chaos Space Marines", "upgrades": [52,55,56,58,59,60,62,53,67,68,69,54,70,71,57,72,73,61,74,75,63,76,77]},
-         	{"id": 507, "name": "Armoured Company", "pts": 0, "upgrades": [27,53,54,70,71,57,72,73]},
+            {"id": 501, "name": "Black Legion Retinue", "pts": 275, "units": "8 Chaos Space Marines", "upgrades": [52,55,56,58,59,60,62,53,67,68,69,54,70,71,57,72,73,61,74,75,63,76,77,80,81,82,83]},
+         	{"id": 507, "name": "Armoured Company", "pts": -25, "upgrades": [27,53,54,70,71,57,72,73]},
 			{"id": 551, "name": "Daemon Pool", "pts": 0, "upgrades": [50,51]}
          ]},
 	  {"name": "ELITE", "formations": [
-            {"id": 503, "name": "Chaos Terminators", "pts": 275, "units":"4 Chaos Terminators", "upgrades": [32,63,76,77,57,72,73,53,67,68,69,61,74,75,56,52,60]},
+            {"id": 503, "name": "Chaos Terminators", "pts": 225, "units":"4 Chaos Terminators", "upgrades": [32,63,76,77,57,72,73,53,67,68,69,61,74,75,56,52,60,80,81,82,83,84]},
             {"id": 504, "name": "Chosen", "pts": 125, "units": "4 Chaos Space Marine Scouts", "upgrades": [62,58,63,76,77,56]}
          ]},
       {"name": "SUPPORT", "formations": [
@@ -46,9 +46,13 @@
       {"id": 21, "name": "Daemon Prince (Supreme Commander)", "pts": 100},
       {"id": 52, "name": "Chaos Champion", "pts": 50},
       {"id": 53, "name": "Chaos Land Raider", "pts": 75}, 
-	  {"id": 67, "name": "2 Chaos Land Raiders", "pts": 150},
-	  {"id": 68, "name": "3 Chaos Land Raiders", "pts": 225},
-	  {"id": 69, "name": "4 Chaos Land Raiders", "pts": 300},
+	  {"id": 67, "name": "2 Chaos Land Raiders", "pts": 125},
+	  {"id": 68, "name": "3 Chaos Land Raiders", "pts": 200},
+	  {"id": 69, "name": "4 Chaos Land Raiders", "pts": 250},
+	  {"id": 80, "name": "5 Chaos Land Raiders", "pts": 325},
+	  {"id": 81, "name": "6 Chaos Land Raiders", "pts": 375},
+	  {"id": 82, "name": "7 Chaos Land Raiders", "pts": 450},
+	  {"id": 83, "name": "8 Chaos Land Raiders", "pts": 500},
       {"id": 54, "name": "Chaos Vindicator", "pts": 35},
 	  {"id": 70, "name": "2 Chaos Vindicators", "pts": 70},
 	  {"id": 71, "name": "3 Chaos Vindicators", "pts": 105},
@@ -74,6 +78,7 @@
       {"id": 27, "name": "Chaos Predator", "pts": 50},
       {"id": 30, "name": "Raptor", "pts": 35},
       {"id": 23, "name": "Death Wheel", "pts": 275},
+      {"id": 84, "name": "Teleport", "pts": 50},
 	  {"id": 64, "name": "2 Land Raiders", "pts": 125},
 	  {"id": 66, "name": "2 Rhinos", "pts": 0}
    ],
@@ -94,11 +99,12 @@
 	  {"max": 1, "min": 1, "from": [17,18,19], "appliesTo": [511]},
 	  {"max": 1, "min": 1, "from": [17,18,20], "appliesTo": [508,510]},
 	  {"max": 1, "from": [54,70,71], "appliesTo": [501,507]}, 
-	  {"max": 1, "from": [53,67,68,69], "appliesTo": [501,503]}, 
+	  {"max": 1, "from": [53,67,68,69,80,81,82,83], "appliesTo": [501,503]}, 
 	  {"max": 1, "from": [57,72,73], "appliesTo": [501,507,503]}, 
 	  {"max": 1, "from": [61,74,75], "appliesTo": [501,503]}, 
 	  {"max": 1, "from": [63,76,77], "appliesTo": [501,503,511,504]}, 
       {"max": 1, "from": [64], "appliesTo": [511]},
+      {"max": 1, "from": [84], "appliesTo": [503]},
 	  {"max": 1, "from": [52], "appliesTo": [501,503,511]},
       {"max": 1, "from": [55], "appliesTo": [501]},
       {"max": 1, "from": [56], "appliesTo": [501,503,504,508,510,511]},

@@ -51,7 +51,7 @@
 		{"id":12, "name":"Hive Tyrant", "pts":50},
 		{"id":13, "name":"Termagant", "pts":15},
 		{"id":30, "name":"Gargoyle", "pts":20},
-		{"id":14, "name":"Hormaguant", "pts":15},
+		{"id":14, "name":"Hormagaunt", "pts":15},
 		{"id":15, "name":"Biovore", "pts":25},
 		{"id":16, "name":"Raveners", "pts":35},
 		{"id":17, "name":"4 Gargoyles", "pts":50},
